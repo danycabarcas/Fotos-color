@@ -9,7 +9,7 @@ import webbrowser
 from optimize import optimize_images
 
 APP_VERSION = "1.0.0"
-GITHUB_REPO = "daniel-cabarcas/Optimizador-Fotos" # Cambia esto a tu usuario/repositorio real
+GITHUB_REPO = "danycabarcas/Fotos-color" # Repositorio real en GitHub
 
 
 ctk.set_appearance_mode("Dark")
