@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Carpetas de compilación de PyInstaller
+build/
+dist/
+*.spec
+
+# Carpeta de salida de Inno Setup
+Installer/
+
+# Archivos de prueba (que no necesitas subir)
+run/
+run_optimized/

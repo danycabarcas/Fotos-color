@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimizador de Fotos - DanyTechCo</title>
+    <meta name="description" content="Una aplicación de escritorio profesional para comprimir, redimensionar y añadir marcas de agua a tus fotos de forma masiva.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blob"></div>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="logo-container">
+                <img src="app_icon.png" alt="Icono de la aplicación" class="app-icon">
+            </div>
+            <h1>Optimizador de Fotos <span class="version-tag">v1.0.0</span></h1>
+            <p class="subtitle">Reduce el peso de tus imágenes, ajusta resoluciones y aplica marcas de agua masivamente, directamente desde tu escritorio.</p>
+            
+            <div class="cta-container">
+                <!-- Enlace dinámico que el usuario actualizará luego -->
+                <a href="https://github.com/daniel-cabarcas/Optimizador-Fotos/releases/latest" class="btn-primary" id="download-btn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    Descargar para Windows
+                </a>
+                <a href="#features" class="btn-secondary">Saber más</a>
+            </div>
+        </div>
+        
+        <div class="hero-image-container">
+            <div class="app-mockup">
+                <div class="mockup-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="mockup-body">
+                    <div class="progress-bar-mock"></div>
+                    <p class="log-mock">> Optimizando imagen 15 de 150...</p>
+                    <p class="log-mock">> Reducción de 5MB a 850KB lograda (Calidad: 75)</p>
+                    <p class="log-mock">> Marca de agua añadida exitosamente.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2>Características Principales</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="icon-wrap">⚡</div>
+                <h3>Procesamiento en Lote</h3>
+                <p>Optimiza cientos de fotos en segundos utilizando tecnología de subprocesos múltiples.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-wrap">🛡️</div>
+                <h3>Marca de Agua Automática</h3>
+                <p>Aplica tu logo (PNG) a todas tus imágenes de forma automática con opacidad y posición personalizada.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-wrap">🎛️</div>
+                <h3>Control Total</h3>
+                <p>Define peso máximo en MB, dimensiones máximas y calidad límite para garantizar los mejores resultados sin pérdida exagerada.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desarrollado con ❤️ por <a href="https://www.linkedin.com/in/daniel-cabarcas/" target="_blank" class="linkedin-link">Daniel Cabarcas</a> (DanyTechCo)</p>
+        <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.7;">Distribuido a través de GitHub</p>
+    </footer>
+</body>
+</html>
